@@ -3,7 +3,15 @@ requires = ["setuptools >= 61.0"]  # Specify the minimum version of setuptools
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "myawesomepackage"
-version = "0.1"
-description = "My first Python package"
-requires-python = ">=3.8"
+name = "sapy_analyze"
+version = "0.1.0"
+description = "simplerApps Software Solutions Ltd Python Analyze library for Data Science Analysis"
+requires-python = ">=3.10"
+authors = [
+  { name="Adel Mansour", email="amansour@simplerapps.com" },
+]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/simplerApps-Software-Solutions-Ltd/sapy_analyze"
+Issues = "https://github.com/simplerApps-Software-Solutions-Ltd/sapy_analyze/issues"

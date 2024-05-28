@@ -9,7 +9,7 @@ def create_results_df(desc, rmse, precision, recall, f1_score)
       "F1_Score": [f1_score]})
 
 def append_to_results_df(tset, df):
-   df = pd.concat([df, tset], , ignore_index=True))
+   return pd.concat([df, tset], , ignore_index=True))
 
 def sort_and_report_minmax(df, sort_field, asc=False):
   # Sort the dataframe by the specified field in descending order
